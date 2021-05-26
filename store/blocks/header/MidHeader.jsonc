@@ -1,0 +1,62 @@
+{
+  "flex-layout.col#logo": {
+    "children": ["logo"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "logo": {
+    "props": {
+      "width": 220,
+      "title": "logo",
+      "href": "/",
+      "alt": "logo footloose",
+      "url": "https://footloose.vtexassets.com/assets/vtex/assets-builder/footloose.store-theme-ftl/2.0.75/footloose-logo___34b68aa3743801440c14aea95a7da3dc.svg"
+    }
+  },
+
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+
+  
+  "flex-layout.col#login-cart-wish": {
+    "children": ["flex-layout.row#header-user"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.row#header-user": {
+    "children": [
+      "flex-layout.col#login",
+      "flex-layout.col#minicart",
+      "flex-layout.col#wishlist"
+    ]
+  },
+
+  "flex-layout.col#login": {
+    "children": ["login"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+
+  "flex-layout.col#minicart": {
+    "children": ["minicart.v2"]
+  },
+
+  "flex-layout.col#wishlist": {
+    "children": ["minicart.v2"]
+  }
+}

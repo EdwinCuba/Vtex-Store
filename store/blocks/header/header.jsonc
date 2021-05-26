@@ -1,0 +1,32 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop-1",
+      "flex-layout.row#desktop-2"
+    ]
+  },
+
+  "flex-layout.row#desktop-1": {
+    "children": [
+      "menu#enlaces"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "right"
+    }
+  },
+
+  "flex-layout.row#desktop-2": {
+    "children": [
+      "flex-layout.col#logo",
+      "search-bar",
+      "flex-layout.col#login-cart-wish"
+    ]
+  }
+}
