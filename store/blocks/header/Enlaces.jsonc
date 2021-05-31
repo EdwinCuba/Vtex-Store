@@ -11,7 +11,7 @@
             "type": "internal",
             "href": "/giftcard",
             "noFollow": false,
-            "tagTittle": "gift card footloose",
+            "tagTitle": "gift card footloose",
             "text": "GIFT CARD FOOTLOOSE"
           }
         },
@@ -24,7 +24,7 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTittle": "fonocompras",
+            "tagTitle": "fonocompras",
             "text": "FONOCOMPRAS 12344566"
           }
         },
@@ -37,7 +37,7 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTittle": "nuestras tiendas",
+            "tagTitle": "nuestras tiendas",
             "text": "NUESTRAS TIENDAS"
           }
         },
@@ -50,7 +50,7 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTittle": "servicio al cliente",
+            "tagTitle": "servicio al cliente",
             "text": "SERVICIO AL CLIENTE"
           }
         },
@@ -63,7 +63,7 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "tagTittle": "catalogo",
+            "tagTitle": "catalogo",
             "text": "CATALOGO"
           }
         }
