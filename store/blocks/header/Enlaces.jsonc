@@ -1,6 +1,7 @@
 {
   "menu#enlaces": {
     "props": {
+      "blockClass": ["firstHeader"],
       "items": [
         {
           "id": "menu-item-gift_Cart",
